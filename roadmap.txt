@@ -1,0 +1,54 @@
+MVP
+
+Eu como usuário necessito criar tickets para registrar as minhas tarefas.
+Eu como usuário necessito compartilhar as minhas tasks com meu time para que todos possam visualizar o trabalho.
+Eu como usuário necessito gerenciar minhas tarefas por status para controlar o avanço da tarefa dentro das etapas do processo.
+
+Eu como usuário necessito saber a prioridade de uma task para saber qual atender primeiro.
+
+Eu como administrador do sistema necessito configurar regras para definir a prioridade das tasks de acordo com o tipo.
+
+
+
+
+PROJETO EQUIPE
+ - vai ter que ter participantes
+ - possibilitar adicionar e remover participantes
+
+
+CARDS
+ - Vão ter status de acordo com a etapa do processo
+ - Vão ter avatares dos membros envolvidos na tarefa
+ - Vão poder ser movidos entre colunas (status)
+
+Tipos de Tasks
+    Chamado 
+    {
+        Cliente
+        Prioridade definirPrioridade() {
+            de acordo com o cliente...       
+        }        
+    }
+    BugFix
+    {
+        Sistema
+        Versão
+        Criticidade
+        Prioridade definirPrioridade() {
+            de acordo com a criticidade...
+        }
+    }
+    Feature
+    {
+        estimativa
+        propostaFinanceira
+        
+        Prioridade definirPrioridade() {
+            definirPrioridade() {
+            de acordo com o propostaFinanceira...
+        }
+    }
+
+
+
+
